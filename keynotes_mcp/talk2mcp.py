@@ -16,7 +16,6 @@ load_dotenv()
 genai.configure(api_key="add_your_key_here")
 client = genai.GenerativeModel("gemini-2.0-flash")
 # Access your API key and initialize Gemini client correctly
-# api_key = "AIzaSyBo1V1h_ggEHzMfe8WDHR36PFXyuzs5nHw"
 # client = genai.Client(api_key=api_key)
 
 max_iterations = 6
